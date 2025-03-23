@@ -43,6 +43,6 @@ int main(){
     string s;
     cin>>s;
     Number a(s);
-    cout<<a.getChinese()<<""元整"<<endl;
+    cout<<a.getChinese()<<"元整"<<endl;
     return 0;
 }
