@@ -2,9 +2,9 @@
 #include<cstring>
 #include<string>
 using namespace std;
-const string alpha[10]={"Áã", "Ò¼", "·¡", "Èþ", "ËÁ","Îé","Â½", "Æâ", "°Æ", "¾Á"};
-const string beta[4]={"Çª","","Ê°", "°Û"};
-const string theta[3]={"","Íò","ÒÚ"};
+const string alpha[10]={"é›¶", "å£¹", "è´°", "å", "è‚†","ä¼","é™†", "æŸ’", "æŒ", "çŽ–"};
+const string beta[4]={"ä»Ÿ","","æ‹¾", "ä½°"};
+const string theta[3]={"","ä¸‡","äº¿"};
 class Number{
     private:
         int num[20];
@@ -44,6 +44,6 @@ int main(){
     string s;
     cin>>s;
     Number a(s);
-    cout<<a.getChinese()<<"ÔªÕû"<<endl;
+    cout<<a.getChinese()<<""å…ƒæ•´"<<endl;
     return 0;
 }
