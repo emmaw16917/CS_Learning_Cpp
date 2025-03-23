@@ -30,7 +30,6 @@ string Number::getChinese(){
             bool zero=pre&suf;
             if(num[i]==0&&zero)
             	chinese+=alpha[num[i]];
-			zero=(num[i]!=0);
         }
         else{
             if(num[i]!=0) chinese+=alpha[num[i]];
